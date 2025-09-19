@@ -58,6 +58,7 @@ export const NewMovie: React.FC<Props> = ({ onSubmit }) => {
         label="Image URL"
         value={imgUrl}
         onChange={setImgUrl}
+        required
       />
 
       <TextField
@@ -65,6 +66,7 @@ export const NewMovie: React.FC<Props> = ({ onSubmit }) => {
         label="Imdb URL"
         value={imdbUrl}
         onChange={setImdbUrl}
+        required
       />
 
       <TextField
@@ -72,6 +74,7 @@ export const NewMovie: React.FC<Props> = ({ onSubmit }) => {
         label="Imdb ID"
         value={imdbId}
         onChange={setImdbId}
+        required
       />
 
       <div className="field is-grouped">
